@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить новость</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+  <body>
+<h1 class="addnewstitle">Добавить новость</h1>
+    <form onsubmit="handleSubmit(event)" id="news-form" class="addnewspage1" action="news.html" method="post"><br>
+      <p class="newstitle1">Заголовок</p>
+      <input id="title" class="newstitle" type="text" placeholder="Введите заголовок" maxlength="50" required><br>
+      <p class="newstext1">Текст</p>
+        <input id="content" class="newstitle" type="textarea" placeholder="Введите сам текст" required><br>
+        <p class = "newsdate1">Дата</p>
+          <input id="date" class="newstitle" type="date" placeholder="Введите дату" required><br><br>
+          <button class="newsbutton" type="submit" name="button">Добавить новость</button><br>
+    </form>
+    <script   src="js/main2.js">
+    </script>
+  </body>
+</html>

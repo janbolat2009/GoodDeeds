@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить мероприятие</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+  <body>
+<h1 class="addnewstitle">Добавить мероприятие</h1>
+    <form onsubmit="handleSubmit(event)" id="events-form" class="addnewspage1" action="events.html" method="post">
+      <label class="newstitle1">Название мероприятия</label>
+      <input  id ="eventname" class="newstitle" type="text" placeholder="Введите название мероприятия" maxlength="50">
+      <label class="newstext1">Описание мероприятия</label>
+        <input id="eventdesc" class="newstitle" type="textarea" placeholder="Введите описание мероприятия">
+        <label class = "newsdate1">Город</label>
+          <input id="eventcity" class="newstitle" type="text" placeholder="Введите город">
+          <label class="auditory">Дата</label>
+          <input id="eventdate" type="date" name="auditory" value="" class="newstitle">
+          <button class="newsbutton" type="submit" name="button">Добавить мероприятие</button>
+    </form>
+    <script   src="js/mainevent1.js">
+    </script>
+  </body>
+</html>

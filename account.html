@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Preview the uploaded image or default camera icon -->
+    <img class="profilepreview" id="preview" src="img/camera-icon.png" alt="Profile Preview" style="width: 150px; height: 150px; object-fit: cover;">
+<input type="file" name="profile-photo" accept="image/* id="profile-photo" class="profile">
+  <p class="profilephoto">Фото</p>
+  <h1 class="nameaccount">Жанболат</h1>
+  <p class="emailaccount">gooddeeds@gmail.com</p>
+  <p class="rateaccount">Рейтинг/Баллы: 4.97/5</p>
+  <form>
+  <label class="rolechoice" for="choices">Выберите роль:</label><br>
+  <select id="choices" name="choices">
+    <option value="option1">Спонсор</option>
+    <option value="option2">Организатор</option>
+    <option value="option3">Волонтер</option>
+  </select>
+  <input class="rolesumbmit" type="submit" value="Готово">
+</form>
+  <div class="accountlist">
+    <nav class="accountlistnav">
+      <ul class="accountlistul">
+        <li>Безопасность</li>
+        <li>Конфиденциальность</li>
+        <li>Политика конфиденциальности</li>
+        <li>Условия использования</li>
+        <li>Изменить пароль</li>
+        <li>Стать Pro-Волонтером</li>
+      </ul>
+    </nav>
+  </div>
+
+  <script   src="js/main.js">
+  </script>
+</body>

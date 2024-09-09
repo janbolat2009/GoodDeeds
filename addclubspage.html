@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить клуб</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+  <body>
+<h1 class="addnewstitle">Добавить клуб</h1>
+    <form  onsubmit="handleSubmit(event)" id="clubs-form" class="addnewspage1" action="clubs.html" method="post">
+      <label class="newstitle1">Имя клуба</label>
+      <input id="clubname" class="newstitle" type="text" placeholder="Введите имя клуба" maxlength="50">
+      <label class="newstext1">Описание клуба</label>
+        <input id="clubdesc" class="newstitle" type="textarea" placeholder="Введите описание клуба">
+        <label class = "newsdate1">Город</label>
+          <input  id ="clubcity" class="newstitle" type="text" placeholder="Введите город">
+          <label class="auditory">Аудитория (кто может присоединиться к этому клубу?)</label>
+          <input id="clubaudit" type="text" name="auditory" value="" class="newstitle" placeholder="Для студентов">
+          <button class="newsbutton" type="submit" name="button">Добавить клуб</button>
+    </form>
+    <script   src="js/mainclub1.js">
+    </script>
+  </body>
+</html>
